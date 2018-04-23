@@ -8,5 +8,5 @@ require.config({
 })
 
 require(['index'], function(index) {
-
+    //console.log(index);
 })
