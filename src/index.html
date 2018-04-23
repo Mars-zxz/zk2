@@ -8,11 +8,63 @@
     <title>Document</title>
     <link rel="stylesheet" href="./static/css/index.css">
 </head>
-<script type="text/x-handlebars-template" id="tpl">
 
-</script>
 
 <body>
+    <div class="box">
+        <script type="text/x-handlebars-template" id="tpl">
+            {{#each lists}}
+            <div class="list">
+                <span class='reduce'>-</span>
+                <span class='plus'>+</span> {{wode}} {{/each}} {{#each c}}
+                <div class="_c">
+                    <span class='reduce'>-</span>
+                    <span class='plus'>+</span> {{cc}} {{/each}} {{#each a}}
+                    <p class='a'>{{aa}}</p>
+                    {{/each}} {{#each changyong}}
+                    <div class="changyong">
+                        <span class='reduce'>-</span><span class='plus'>+</span> {{chang}} {{/each}} {{#each list}}
+                        <p class='b'>{{b}}</p>
+                        <p class='c'>{{c}}</p>
+                        {{/each}}
+                    </div>
+                    {{#each one}}
+                    <div class="chengxu">
+                        <span class='reduce'>-</span>
+                        <span class='plus'>+</span> {{chengxu}} {{/each}} {{#each one_1}}
+                        <p class='plusoxue'>{{plusoxue}}</p>
+                        {{/each}} {{#each one_2}}
+                        <div class="demo">
+                            <span class='reduce'>-</span>
+                            <span class='plus'>+</span> {{demo}} {{/each}} {{#each one_2_1}}
+                            <p class='base'>{{base}}</p>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+                {{#each two}}
+                <div class="_d">
+                    <span class='reduce'>-</span>
+                    <span class='plus'>+</span> {{d}} {{/each}} {{#each two_1}}
+                    <div class="yingyin">
+                        <span class='reduce'>-</span>
+                        <span class='plus'>+</span> {{yingyin}}{{/each}} {{#each two_1_1}}
+                        <p class='jingang'>{{jingang}}</p>
+                        <p class='binghe'>{{binghe}}</p>
+                        {{/each}}
+                    </div>
+                    {{#each two_2}}
+                    <div class="youxi">
+                        <span class='reduce'>-</span>
+                        <span class='plus'>+</span> {{youxi}}{{/each}} {{#each two_2_1}}
+                        <p class='LOL'>{{lol}}</p>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+
+        </script>
+    </div>
     <script src="./static/js/lib/require.js" data-main="./static/js/main"></script>
 </body>
 
